@@ -1,0 +1,28 @@
+{
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "FilterDescription": {
+      "Description": "none"
+    }
+  },
+  "HardwareFilters": {
+    "FilterDescription": {
+      "Description": "none"
+    }
+  },
+  "SoftwareVersions": "Brainvision PyCorder 1.0.9",
+  "ManufacturersModelName": "actiCHamp",
+  "Manufacturer": "Brain Vision",
+  "EEGPlacementScheme": "custom based on 10-20",
+  "EEGGround": "AFz",
+  "EEGReference": "common",
+  "CapManufacturersModelName": "Easy Cap Classic",
+  "CapManufacturer": "Easy Cap",
+  "InstitutionName": "\"Mt. Holyoke College, University of Richmond, Claremont McKenna College\"",
+  "TaskName": "Flanker",
+  "EEGChannelCount": 29,
+  "EOGChannelCount": 3,
+  "RecordingType": "continuous",
+  "RecordingDuration": 904.05,
+  "SamplingFrequency": 500
+}
