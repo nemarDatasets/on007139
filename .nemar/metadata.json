@@ -1,29 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on007139",
-  "source": "openneuro",
-  "source_id": "ds007139",
+  "pipeline_stage": "validated",
   "title": "PURSUE LRP/ERN Flanker",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Couperus, J.W.": {},
     "Bukach, C.M.": {},
     "Reed, C.L.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007139.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007139",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007139",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "15.6 GB (294 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The PURSUE LRP/ERN Flanker dataset comprises event-related potential (ERP) recordings from a flanker task experiment conducted across three undergraduate institutions. This dataset contributes to the ERP CORE resource, providing standardized EEG data for investigating error-related negativity (ERN) and lateralized readiness potentials (LRP) during conflict monitoring and motor preparation. Data were collected from participants in 2017-2018 and are formatted according to BIDS standards.",
+  "methods_description": "EEG data were collected during a flanker task designed to elicit error-related potentials and lateralized readiness potentials. Participants were recruited from three primarily undergraduate institutions located in Southern California, Massachusetts, and Virginia. Data collection occurred in 2017 and 2018. Task details are available in the supplementary materials of Kappenman et al. (2021).",
+  "keywords": [
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "flanker task"
+    },
+    {
+      "term": "error-related negativity"
+    },
+    {
+      "term": "lateralized readiness potential"
+    },
+    {
+      "term": "conflict monitoring"
+    }
+  ],
+  "source_hash": "aa8621cb75b952acce7d14273765db1dd3f134818e2fb35870fb88c334d7a6a4"
 }
